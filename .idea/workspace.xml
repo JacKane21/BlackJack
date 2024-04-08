@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Start (Title won't display)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2epDndGHFjjxocDeDPavhaeBnRV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/jackkanewske/IdeaProjects/BlackJack/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/table" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="BlackJack" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="" />
+      <created>1712592793597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712592793597</updated>
+      <workItem from="1712592794661" duration="69000" />
+      <workItem from="1712592886125" duration="17000" />
+      <workItem from="1712592915845" duration="24000" />
+      <workItem from="1712592944445" duration="19000" />
+      <workItem from="1712592981443" duration="45000" />
+      <workItem from="1712593038815" duration="35000" />
+      <workItem from="1712593078221" duration="54000" />
+      <workItem from="1712593145719" duration="115000" />
+      <workItem from="1712593285675" duration="65000" />
+      <workItem from="1712593362089" duration="75000" />
+      <workItem from="1712593455924" duration="70000" />
+      <workItem from="1712593698988" duration="44000" />
+      <workItem from="1712593749195" duration="26000" />
+      <workItem from="1712593821300" duration="26000" />
+      <workItem from="1712593862010" duration="53000" />
+      <workItem from="1712593925355" duration="21000" />
+      <workItem from="1712593953927" duration="81000" />
+      <workItem from="1712594059014" duration="63000" />
+      <workItem from="1712594127775" duration="60000" />
+      <workItem from="1712594204149" duration="138000" />
+      <workItem from="1712595188876" duration="8000" />
+      <workItem from="1712595203948" duration="162000" />
+      <workItem from="1712595619185" duration="18000" />
+      <workItem from="1712595645429" duration="37000" />
+      <workItem from="1712595687497" duration="15000" />
+      <workItem from="1712595707395" duration="44000" />
+      <workItem from="1712595802870" duration="91000" />
+      <workItem from="1712595896685" duration="2000" />
+      <workItem from="1712595918586" duration="42000" />
+      <workItem from="1712596011366" duration="48000" />
+      <workItem from="1712596087254" duration="84000" />
+      <workItem from="1712596181622" duration="22000" />
+      <workItem from="1712596242173" duration="130000" />
+      <workItem from="1712596386757" duration="16000" />
+      <workItem from="1712596413793" duration="606000" />
+      <workItem from="1712597060864" duration="91000" />
+      <workItem from="1712597172751" duration="203000" />
+      <workItem from="1712597390392" duration="23000" />
+      <workItem from="1712597436362" duration="66000" />
+      <workItem from="1712597514813" duration="203000" />
+      <workItem from="1712597750327" duration="4083000" />
+      <workItem from="1712607306299" duration="930000" />
+    </task>
+    <task id="LOCAL-00001" summary="Start (Title won't display)">
+      <option name="closed" value="true" />
+      <created>1712612357662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712612357662</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Start (Title won't display)">
+      <option name="closed" value="true" />
+      <created>1712612433022</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712612433022</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Start (Title won't display)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start (Title won't display)" />
+  </component>
+</project>
