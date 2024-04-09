@@ -1,6 +1,7 @@
 package main;
 
 import table.BlackJackTable;
+import table.BlackJackTitle;
 import table.StartButton;
 
 import javax.swing.*;
@@ -14,6 +15,7 @@ public class GamePanel extends JPanel implements Runnable{
     public BlackJackTable bjTable = new BlackJackTable(this);
     Thread gameThread;
     public StartButton sb = new StartButton(this);
+    public BlackJackTitle bjTitle = new BlackJackTitle(this);
     public MouseHandler mouseH = new MouseHandler(this,sb);
 
 
@@ -62,6 +64,8 @@ public class GamePanel extends JPanel implements Runnable{
     public void update() {
 
         sb.update();
+
+        bjTitle.update();
     }
 
     public void paintComponent(Graphics g) {
@@ -73,6 +77,8 @@ public class GamePanel extends JPanel implements Runnable{
         bjTable.draw(g2);
 
         sb.draw(g2);
+
+        bjTitle.draw(g2);
 
         g2.dispose();
     }

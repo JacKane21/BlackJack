@@ -28,9 +28,6 @@ public class MouseHandler implements MouseListener {
         }
 
 
-
-
-
     }
 
     @Override

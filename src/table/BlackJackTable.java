@@ -19,7 +19,7 @@ public class BlackJackTable extends Table{
 
     public void getBJTableImage() {
         try {
-            image = ImageIO.read(getClass().getResourceAsStream("/table/StarterTable.png"));
+            image = ImageIO.read(getClass().getResourceAsStream("/table/blackjacktable.png"));
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
