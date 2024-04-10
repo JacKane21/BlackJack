@@ -4,17 +4,69 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Start (Title won't display)">
-      <change afterPath="$PROJECT_DIR$/src/table/BlackJackTitle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table/Title.java" afterDir="false" />
+    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Title Added">
+      <change afterPath="$PROJECT_DIR$/res/cards/10_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/10_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/10_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/10_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/2_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/2_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/2_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/2_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/3_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/3_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/3_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/3_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/4_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/4_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/4_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/4_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/5_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/5_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/5_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/5_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/6_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/6_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/6_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/6_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/7_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/7_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/7_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/7_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/8_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/8_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/8_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/8_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/9_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/9_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/9_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/9_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/king_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/king_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/king_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/king_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_clubs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_diamonds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_hearts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_spades.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/card/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/card/Deck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/card/Hand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/SetupGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Dealer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/table/BlackJackLabel.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/title/blackjacktitle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/table/Start.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/button/startbutton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/table/StarterTable.png" beforeDir="false" afterPath="$PROJECT_DIR$/res/table/blackjacktable.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MouseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table/BlackJackTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/BlackJackTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table/StartButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/StartButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +121,7 @@
       <recent name="C:\Users\14692\IdeaProjects\BlackJack\res" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/cards" />
       <recent name="$PROJECT_DIR$/res/title" />
       <recent name="$PROJECT_DIR$/res/button" />
       <recent name="C:\Users\14692\IdeaProjects\BlackJack\res\table" />
@@ -142,6 +195,25 @@
       <workItem from="1712597750327" duration="4083000" />
       <workItem from="1712607306299" duration="930000" />
       <workItem from="1712612968476" duration="5423000" />
+      <workItem from="1712681391300" duration="21000" />
+      <workItem from="1712681419806" duration="21000" />
+      <workItem from="1712681501616" duration="145000" />
+      <workItem from="1712681702960" duration="184000" />
+      <workItem from="1712681968550" duration="61000" />
+      <workItem from="1712682035378" duration="1000" />
+      <workItem from="1712692271474" duration="5000" />
+      <workItem from="1712757637811" duration="395000" />
+      <workItem from="1712758102532" duration="15000" />
+      <workItem from="1712758126380" duration="8000" />
+      <workItem from="1712758148872" duration="1011000" />
+      <workItem from="1712759181730" duration="1392000" />
+      <workItem from="1712760617558" duration="9000" />
+      <workItem from="1712760635378" duration="28000" />
+      <workItem from="1712760677117" duration="17000" />
+      <workItem from="1712760720849" duration="22000" />
+      <workItem from="1712760771061" duration="409000" />
+      <workItem from="1712761211056" duration="147000" />
+      <workItem from="1712761381549" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Start (Title won't display)">
       <option name="closed" value="true" />
@@ -159,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712612433022</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Title Added">
+      <option name="closed" value="true" />
+      <created>1712680966270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712680966270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +258,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start (Title won't display)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start (Title won't display)" />
+    <MESSAGE value="Title Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Title Added" />
   </component>
 </project>
