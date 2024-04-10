@@ -1,6 +1,10 @@
 package card;
 
-public class Hand {
+import java.awt.*;
+
+public class Hand extends Card{
+
+    int handX, handY;
 
     public Card[] ciHand;
 
@@ -23,6 +27,19 @@ public class Hand {
            value += ciHand[i].getValue(ciHand[i]);
        }
        return value;
+    }
+
+    public void update() {
+
+    }
+
+    public void draw(int x, int y, Graphics2D g2) {
+        handX = x;
+        handY = y;
+        for(int i = 0; i < ciHand.length; i++) {
+            g2.drawImage(ciHand[i].cardImage, handX, handY, cardWidth, cardHeight, null);
+            handX += cardWidth + 10;
+        }
     }
 
     public String toString() {

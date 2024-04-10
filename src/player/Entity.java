@@ -4,6 +4,6 @@ import card.Hand;
 
 public class Entity {
 
-    Hand hand;
+    public Hand hand;
 
 }

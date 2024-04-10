@@ -24,6 +24,7 @@ public class MouseHandler implements MouseListener {
 
         if(startButton.solidArea.contains(point)) {
             System.out.println("Click");
+            gp.started = true;
             startButtonClicked = true;
         }
 

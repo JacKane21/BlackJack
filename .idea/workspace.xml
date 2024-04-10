@@ -4,69 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Title Added">
-      <change afterPath="$PROJECT_DIR$/res/cards/10_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/10_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/10_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/10_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/2_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/2_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/2_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/2_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/3_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/3_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/3_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/3_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/4_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/4_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/4_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/4_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/5_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/5_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/5_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/5_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/6_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/6_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/6_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/6_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/7_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/7_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/7_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/7_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/8_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/8_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/8_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/8_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/9_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/9_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/9_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/9_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/ace_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/jack_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/king_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/king_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/king_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/king_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/cards/queen_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/card/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/SetupGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Dealer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
+    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Started adding game logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/card/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MouseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SetupGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +160,7 @@
       <workItem from="1712760720849" duration="22000" />
       <workItem from="1712760771061" duration="409000" />
       <workItem from="1712761211056" duration="147000" />
-      <workItem from="1712761381549" duration="356000" />
+      <workItem from="1712761381549" duration="4807000" />
     </task>
     <task id="LOCAL-00001" summary="Start (Title won't display)">
       <option name="closed" value="true" />
@@ -239,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712680966270</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started adding game logic">
+      <option name="closed" value="true" />
+      <created>1712761810279</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712761810279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start (Title won't display)" />
     <MESSAGE value="Title Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Title Added" />
+    <MESSAGE value="Started adding game logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started adding game logic" />
   </component>
 </project>
