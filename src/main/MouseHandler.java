@@ -1,5 +1,6 @@
 package main;
 
+import table.HitButton;
 import table.StartButton;
 
 import java.awt.*;
@@ -12,23 +13,35 @@ public class MouseHandler implements MouseListener {
 
     StartButton startButton;
     GamePanel gp;
+    HitButton hitButton;
 
-    public MouseHandler(GamePanel gp, StartButton startButton) {
+    public MouseHandler(GamePanel gp, StartButton startButton, HitButton hitButton) {
         this.gp = gp;
         this.startButton = startButton;
+        this.hitButton = hitButton;
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
         Point point = e.getPoint();
 
-        if(startButton.solidArea.contains(point)) {
-            System.out.println("Click");
-            gp.started = true;
-            startButtonClicked = true;
+        if(startButton.solidArea != null) {
+            if (startButton.solidArea.contains(point)) {
+                System.out.println("Click");
+                gp.started = true;
+                startButtonClicked = true;
+            }
         }
 
-
+        if(hitButton.solidArea != null) {
+            if (hitButton.hittable) {
+                if (hitButton.solidArea.contains(point)) {
+                    System.out.println("Hit");
+                    gp.player.hit();
+                    System.out.println(gp.player.hand.getValue());
+                }
+            }
+        }
     }
 
     @Override

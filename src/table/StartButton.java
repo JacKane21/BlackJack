@@ -29,9 +29,12 @@ public class StartButton extends Button{
     }
 
     public void update() {
-        if(gp.mouseH.startButtonClicked) {
-            buttonImage = null;
-        }
+
+            if (gp.mouseH.startButtonClicked) {
+                buttonImage = null;
+                solidArea = null;
+            }
+
     }
 
     public void draw(Graphics2D g2) {

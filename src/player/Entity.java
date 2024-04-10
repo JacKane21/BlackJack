@@ -6,4 +6,8 @@ public class Entity {
 
     public Hand hand;
 
+    public void hit(){
+        hand.addCard();
+    }
+
 }

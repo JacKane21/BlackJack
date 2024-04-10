@@ -6,6 +6,7 @@ import player.Dealer;
 import player.Player;
 import table.BlackJackTable;
 import table.BlackJackTitle;
+import table.HitButton;
 import table.StartButton;
 
 import javax.swing.*;
@@ -21,11 +22,12 @@ public class GamePanel extends JPanel implements Runnable{
     Thread gameThread;
     public StartButton sb = new StartButton(this);
     public BlackJackTitle bjTitle = new BlackJackTitle(this);
-    public MouseHandler mouseH = new MouseHandler(this,sb);
-    Card card;
-    Deck deck;
-    Player player;
-    Dealer dealer;
+    public HitButton hb = new HitButton(this, sb);
+    public MouseHandler mouseH = new MouseHandler(this,sb,hb);
+    public Card card;
+    public Deck deck;
+    public Player player;
+    public Dealer dealer;
 
 
     public GamePanel() {
@@ -85,7 +87,13 @@ public class GamePanel extends JPanel implements Runnable{
 
     public void drawPlayer(Graphics2D g2) {
         if (player != null) {
-            player.hand.draw(370, 320, g2);
+            player.hand.draw(370, 300, g2);
+        }
+    }
+
+    public void drawDealer(Graphics2D g2) {
+        if (dealer != null) {
+            dealer.hand.draw(370, 170, g2);
         }
     }
 
@@ -94,6 +102,8 @@ public class GamePanel extends JPanel implements Runnable{
         sb.update();
 
         bjTitle.update();
+
+        hb.update();
 
         setupGame();
     }
@@ -110,7 +120,11 @@ public class GamePanel extends JPanel implements Runnable{
 
         bjTitle.draw(g2);
 
+        hb.draw(g2);
+
         drawPlayer(g2);
+
+        drawDealer(g2);
 
         g2.dispose();
     }
