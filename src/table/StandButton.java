@@ -7,6 +7,8 @@ import java.io.IOException;
 public class StandButton extends Button{
 
 
+    public boolean disabled = false;
+
     public StandButton(){
 
         solidAreaWidth = 50;
@@ -27,6 +29,7 @@ public class StandButton extends Button{
     }
 
     public void setDisabled() {
+        disabled = true;
         try {
             buttonImage = ImageIO.read(getClass().getResourceAsStream("/button/StandDisabled.png"));
         } catch (IOException e) {
@@ -35,7 +38,7 @@ public class StandButton extends Button{
     }
 
     public void update() {
-        if(setStandButton) {
+        if(setStandButton && !disabled) {
             getHitButtonImage();
         }
     }

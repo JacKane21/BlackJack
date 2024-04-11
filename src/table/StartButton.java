@@ -30,6 +30,7 @@ public class StartButton extends Button{
 
     public void startGame() {
         started = true;
+        solidArea = null;
     }
 
     public void update() {

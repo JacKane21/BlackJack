@@ -11,4 +11,6 @@ public class Dealer extends Entity{
 
         this.deck = deck;
     }
+
+
 }

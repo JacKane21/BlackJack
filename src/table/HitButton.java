@@ -6,6 +6,8 @@ import java.io.IOException;
 
 public class HitButton extends Button{
 
+    public boolean disabled = false;
+
 
     public HitButton(){
 
@@ -23,6 +25,7 @@ public class HitButton extends Button{
     }
 
     public void setDisabled() {
+        disabled = true;
         try {
             buttonImage = ImageIO.read(getClass().getResourceAsStream("/button/HitDisabled.png"));
         } catch (IOException e) {
@@ -35,7 +38,7 @@ public class HitButton extends Button{
     }
 
     public void update() {
-        if(setHitButton) {
+        if(setHitButton && !disabled) {
             getHitButtonImage();
         }
     }

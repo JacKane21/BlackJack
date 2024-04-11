@@ -11,6 +11,7 @@ public class Main {
         window.setTitle("BlackJack");
         window.setResizable(false);
 
+
         GamePanel gamePanel = new GamePanel();
         window.add(gamePanel);
         window.pack();

@@ -20,11 +20,12 @@ public class GamePanel extends JPanel implements Runnable{
     public BlackJackTitle bjTitle = new BlackJackTitle(this);
     public HitButton hb = new HitButton();
     public StandButton sb = new StandButton();
-    public MouseHandler mouseH = new MouseHandler(stb, hb, sb);
-    public Card card;
-    public Deck deck;
     public Player player;
     public Dealer dealer;
+    public MouseHandler mouseH;
+    public Card card;
+    public Deck deck;
+
 
 
     public GamePanel() {
@@ -33,8 +34,9 @@ public class GamePanel extends JPanel implements Runnable{
         setPreferredSize(new Dimension(screenWidth,screenHeight));
         setFocusable(true);
         setDoubleBuffered(true);
-        this.addMouseListener(mouseH);
         setupGame();
+        mouseH = new MouseHandler(stb, hb, sb, player, dealer);
+        this.addMouseListener(mouseH);
     }
 
 
@@ -85,6 +87,8 @@ public class GamePanel extends JPanel implements Runnable{
 
         player.update();
 
+        dealer.update();
+
         sb.update();
 
         bjTitle.update();
@@ -110,7 +114,9 @@ public class GamePanel extends JPanel implements Runnable{
 
         sb.draw(g2);
 
-        player.draw(g2);
+        player.draw(g2, 370, 300);
+
+        dealer.draw(g2, 370, 180);
 
         g2.dispose();
     }
