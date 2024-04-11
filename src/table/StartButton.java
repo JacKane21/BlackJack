@@ -28,13 +28,14 @@ public class StartButton extends Button{
         }
     }
 
+    public void startGame() {
+        started = true;
+    }
+
     public void update() {
-
-            if (gp.mouseH.startButtonClicked) {
-                buttonImage = null;
-                solidArea = null;
-            }
-
+        if(started) {
+            buttonImage = null;
+        }
     }
 
     public void draw(Graphics2D g2) {

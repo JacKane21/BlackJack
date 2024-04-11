@@ -31,8 +31,7 @@ public class BlackJackTitle extends Title{
     }
 
     public void update() {
-
-        if(gp.mouseH.startButtonClicked) {
+        if(gp.stb.started) {
             titleImage = null;
         }
     }

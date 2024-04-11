@@ -9,4 +9,11 @@ public class Button {
     public Rectangle solidArea;
     int solidAreaWidth;
     int solidAreaHeight;
+
+    public boolean started = false;
+
+    public boolean setHitButton = false;
+    public boolean setStandButton = false;
+
+
 }

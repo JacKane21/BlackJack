@@ -15,17 +15,25 @@ public class Card {
 
     public BufferedImage cardImage;
 
-    int cardWidth = 50;
-
-    int cardHeight = 78;
-
     public Card(String suit, String face) {
 
         this.face = face;
         this.suit = suit;
         getCardImage();
+    }
+
+    public void getCardImage() {
+            try {
+                cardImage = ImageIO.read(getClass().getResourceAsStream("/cards/" + toString() + ".png"));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+    }
+
+    public void update() {
 
     }
+
 
     public Card() {
 
@@ -33,13 +41,7 @@ public class Card {
         this.suit = "";
     }
 
-    public void getCardImage() {
-        try {
-            cardImage = ImageIO.read(getClass().getResourceAsStream("/cards/"+toString() + ".png"));
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-    }
+
 
     public int getValue(Card card) {
         String face = card.face;

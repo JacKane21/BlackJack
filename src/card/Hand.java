@@ -1,6 +1,5 @@
 package card;
 
-import java.awt.*;
 import java.util.ArrayList;
 
 public class Hand extends Card{
@@ -9,7 +8,7 @@ public class Hand extends Card{
 
     public ArrayList<Card> ciHand;
 
-    Deck deck;
+    public Deck deck;
 
     public Hand(Deck deck) {
 
@@ -21,6 +20,7 @@ public class Hand extends Card{
             ciHand.add(deck.deck.remove(deck.deck.size() - 1));
         }
     }
+
 
     public int getValue() {
         int value = 0;
@@ -34,18 +34,11 @@ public class Hand extends Card{
         ciHand.add(deck.deck.remove(deck.deck.size() - 1));
     }
 
+
     public void update() {
 
     }
 
-    public void draw(int x, int y, Graphics2D g2) {
-        handX = x;
-        handY = y;
-        for(int i = 0; i < ciHand.size(); i++) {
-            g2.drawImage(ciHand.get(i).cardImage, handX, handY, cardWidth, cardHeight, null);
-            handX += cardWidth + 10;
-        }
-    }
 
     public String toString() {
         String output = "";

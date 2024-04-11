@@ -7,7 +7,8 @@ public class Deck {
 
     public ArrayList<Card> deck;
 
-    Card card;
+    public Card card;
+
     public int numFaces;
 
     public int numSuits;

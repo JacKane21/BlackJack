@@ -4,10 +4,7 @@ import card.Card;
 import card.Deck;
 import player.Dealer;
 import player.Player;
-import table.BlackJackTable;
-import table.BlackJackTitle;
-import table.HitButton;
-import table.StartButton;
+import table.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -17,13 +14,13 @@ public class GamePanel extends JPanel implements Runnable{
     public final int screenWidth = 960;
     public final int screenHeight = 540;
 
-    public boolean started = false;
     public BlackJackTable bjTable = new BlackJackTable(this);
     Thread gameThread;
-    public StartButton sb = new StartButton(this);
+    public StartButton stb = new StartButton(this);
     public BlackJackTitle bjTitle = new BlackJackTitle(this);
-    public HitButton hb = new HitButton(this, sb);
-    public MouseHandler mouseH = new MouseHandler(this,sb,hb);
+    public HitButton hb = new HitButton();
+    public StandButton sb = new StandButton();
+    public MouseHandler mouseH = new MouseHandler(stb, hb, sb);
     public Card card;
     public Deck deck;
     public Player player;
@@ -37,6 +34,7 @@ public class GamePanel extends JPanel implements Runnable{
         setFocusable(true);
         setDoubleBuffered(true);
         this.addMouseListener(mouseH);
+        setupGame();
     }
 
 
@@ -74,7 +72,7 @@ public class GamePanel extends JPanel implements Runnable{
     }
 
     public void setupGame() {
-        if (started) {
+
             this.card = new Card();
             this.deck = new Deck(card);
             deck.shuffle();
@@ -82,30 +80,18 @@ public class GamePanel extends JPanel implements Runnable{
             this.player = new Player(deck);
             this.dealer = new Dealer(deck);
         }
-        started = false;
-    }
-
-    public void drawPlayer(Graphics2D g2) {
-        if (player != null) {
-            player.hand.draw(370, 300, g2);
-        }
-    }
-
-    public void drawDealer(Graphics2D g2) {
-        if (dealer != null) {
-            dealer.hand.draw(370, 170, g2);
-        }
-    }
 
     public void update() {
+
+        player.update();
 
         sb.update();
 
         bjTitle.update();
 
-        hb.update();
+        stb.update();
 
-        setupGame();
+        hb.update();
     }
 
     public void paintComponent(Graphics g) {
@@ -116,15 +102,15 @@ public class GamePanel extends JPanel implements Runnable{
 
         bjTable.draw(g2);
 
-        sb.draw(g2);
+        stb.draw(g2);
 
         bjTitle.draw(g2);
 
         hb.draw(g2);
 
-        drawPlayer(g2);
+        sb.draw(g2);
 
-        drawDealer(g2);
+        player.draw(g2);
 
         g2.dispose();
     }

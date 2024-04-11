@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Started adding game logic">
-      <change afterPath="$PROJECT_DIR$/res/button/Hit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table/HitButton.java" afterDir="false" />
+    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Started drawing hand">
+      <change afterPath="$PROJECT_DIR$/res/button/StandButton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/button/StandDisabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/table/StandButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/card/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Deck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/card/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MouseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/table/BlackJackTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/BlackJackTitle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/table/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/table/HitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/HitButton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/table/StartButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/StartButton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,33 +50,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/14692/IdeaProjects/BlackJack/res/button",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/jackkanewske/IdeaProjects/BlackJack/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/14692/IdeaProjects/BlackJack/res/button&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/jackkanewske/IdeaProjects/BlackJack/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\14692\IdeaProjects\BlackJack\res\button" />
       <recent name="C:\Users\14692\IdeaProjects\BlackJack\res" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/button" />
       <recent name="$PROJECT_DIR$/res/cards" />
       <recent name="$PROJECT_DIR$/res/title" />
-      <recent name="$PROJECT_DIR$/res/button" />
       <recent name="C:\Users\14692\IdeaProjects\BlackJack\res\table" />
       <recent name="$PROJECT_DIR$/res/table" />
     </key>
@@ -215,6 +221,22 @@
     <MESSAGE value="Start (Title won't display)" />
     <MESSAGE value="Title Added" />
     <MESSAGE value="Started adding game logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started adding game logic" />
+    <MESSAGE value="Started drawing hand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started drawing hand" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/card/Card.java</url>
+          <line>24</line>
+          <properties class="card.Card" method="getCardImage">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
