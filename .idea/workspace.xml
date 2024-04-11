@@ -4,21 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Started drawing hand">
-      <change afterPath="$PROJECT_DIR$/res/button/StandButton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/button/StandDisabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table/StandButton.java" afterDir="false" />
+    <list default="true" id="b184d259-abf6-4297-955d-c11cd25262c3" name="Changes" comment="Restarted some, need to handle the CARD update and CARD getImage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/card/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/card/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/card/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/card/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MouseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Dealer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/player/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table/BlackJackTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/BlackJackTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table/HitButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/HitButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/table/StartButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/table/StartButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/player/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +158,7 @@
       <workItem from="1712760771061" duration="409000" />
       <workItem from="1712761211056" duration="147000" />
       <workItem from="1712761381549" duration="4807000" />
+      <workItem from="1712868141647" duration="418000" />
     </task>
     <task id="LOCAL-00001" summary="Start (Title won't display)">
       <option name="closed" value="true" />
@@ -200,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712761810279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Restarted some, need to handle the CARD update and CARD getImage">
+      <option name="closed" value="true" />
+      <created>1712858417125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712858417125</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,21 +222,7 @@
     <MESSAGE value="Title Added" />
     <MESSAGE value="Started adding game logic" />
     <MESSAGE value="Started drawing hand" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started drawing hand" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/card/Card.java</url>
-          <line>24</line>
-          <properties class="card.Card" method="getCardImage">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Restarted some, need to handle the CARD update and CARD getImage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restarted some, need to handle the CARD update and CARD getImage" />
   </component>
 </project>

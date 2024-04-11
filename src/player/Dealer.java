@@ -1,17 +1,14 @@
 package player;
 
 import card.Deck;
-import card.Hand;
+import main.GamePanel;
 
 public class Dealer extends Entity{
 
-    public Dealer(Deck deck) {
+    public Dealer(Deck deck, GamePanel gp) {
 
-        hand = new Hand(deck);
+        this.gp = gp;
 
-        System.out.println(hand);
-
-        System.out.println(hand.getValue());
-
+        this.deck = deck;
     }
 }

@@ -77,8 +77,8 @@ public class GamePanel extends JPanel implements Runnable{
             this.deck = new Deck(card);
             deck.shuffle();
 
-            this.player = new Player(deck);
-            this.dealer = new Dealer(deck);
+            this.player = new Player(deck, this);
+            this.dealer = new Dealer(deck, this);
         }
 
     public void update() {
